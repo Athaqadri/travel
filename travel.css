@@ -1,0 +1,227 @@
+
+
+*{
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    scroll-behavior: smooth;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto Mono', monospace;
+}
+
+/* navbar start */
+#navbar{
+background: color #f9f9f9;
+
+}
+#logo{
+    font-size: 36px;
+    font-weight: 700;
+    color: black;
+    text-shadow: 4px black;
+}
+
+.navbar-toggler{
+color: #ffa500 !important;
+background-color:black;
+
+}
+.navbar-nav{
+    margin-left: 16px;
+}
+.nav-item .nav-link{
+    font-size: 16px;
+    font-weight: 600px;
+    color: black;
+    letter-spacing: 4px;
+    border-radius: 4px;
+    transition: 0.5s ease;
+
+}
+.nav-item:hover, .nav-link:hover {
+    background-color: #ffa500 !important;
+    color: white;
+    border: none;
+    border-radius: 10px;
+}
+#button1{
+    background-color: #ffa500;
+    color: #f9f9f9 !important;
+    border: none !important;
+
+}
+#button1:hover{
+background-color:gray;
+height: 40px;
+}
+
+/* navbar end */
+
+
+/* !-- home selection start --*/ 
+
+.home{
+    width:100%;
+    height: 90vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-image:url(https://images.unsplash.com/photo-1528528338041-d2c8c2ebab7d?q=80&w=1973&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    text-align: center;
+    padding-top: 150px;
+    color: white;
+
+}
+ .content h5{
+color:black;
+font-size: 30px;
+font-weight: 700;
+text-shadow: 0px black;
+}
+.content h1{
+color: aquamarine;
+font-size: 70px;
+font-weight: 600;
+margin-top: 5px;
+
+}
+.content1 p{
+    font-size: 16px;
+    color: #f9f9f9;
+
+}
+.content1::after{
+content: '';
+color: #ffa500;
+animation: changetxt 3s infinite linear;
+
+}
+@keyframes changetxt {
+   0%{
+    content: 'France';
+   }
+   25%{
+    content: 'England';
+   }
+   50%{
+    content: 'Australia';
+   }
+   75%{
+    content: 'Italy';
+   }
+   100%{
+    content: 'Germany';
+   }
+}
+#book1{
+    color: #000 !important;
+    padding: 10px;
+    background:orange;
+    border-radius: 20px;
+    letter-spacing: 2px;
+    font-weight: 550px;
+    font-family: 'Open Sans', sans-serif;
+font-family: 'Oswald', sans-serif;
+font-family: 'Roboto', sans-serif;
+font-family: 'Roboto Mono', monospace;
+
+}
+
+#book1:hover{
+    background-color: gray;
+}
+/* !-- home selection start --*/ 
+
+/* !--secnd pg strt -- */
+
+
+#button3{
+    margin-top: 6px;
+    color:black;
+    background-color: #ffa500;
+    border-radius: 12px;
+    border: none;
+    outline: none;
+
+}
+#button3:hover{
+    background-color: gray;
+}
+#book2{
+text-align: center !important;
+}
+
+
+.head2{
+    text-align: center;
+    color: #ffa500;
+    margin-top: 7px;
+}
+.card{
+    margin-top: 80px;
+    margin: 6px;
+    
+} #img{
+    height: 190px;
+
+}
+#card-title{
+    color:goldenrod;
+}
+#uniq{
+    color:black;
+    border: 1px solid black;
+    border-radius: 18px;
+    text-align: center;
+    background-color: #ffa500;
+    box-shadow: #f9f9f9;
+    border: none;
+    text-decoration: none;
+
+    
+
+}
+#uniq:hover{
+    background-color: gray;
+}
+/* !--secnd pg end -- */
+
+#head3{
+    text-align: center;
+    margin-top:65px;
+    color: #ffa500;
+}
+#container5{
+    margin-bottom:100px !important;
+    margin: 2px;
+}
+#card1{
+   
+    color: black;
+}
+i{
+    /* font-size: 50;
+color: #ffa500; */
+}
+#imghov{
+    transition: transform .2s;
+    -webkit-animation: kenburn 25s 2s alternate infinite;
+  animation: kenburn 25s 2s alternate infinite;
+}
+    
+#imghov:hover{
+/* transform: rotate3d(10, 50, 75, -5deg); */
+transform: scale(1.2);
+}
+.head5{
+    margin-top: 70px;
+}
+#about1{
+    color: gray;
+    margin-top: 50px;
+    text-decoration-line: underline;
+}
+.head7{
+    margin-top: 70px;
+}
+
